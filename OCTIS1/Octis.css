@@ -1,1 +1,39 @@
+body{
+  width:100%;
+  height:100%;
+}
+.logo{
+  float:left;
+  width:20%;
+  height:100%;
 
+}
+.center{
+  height:100%;
+  width:100%;
+ 
+}
+.head{
+  float:left;
+  width:80%;
+  height:100%;
+  background-color:orange;
+  object-fit:contain;
+}
+.ti{
+  color:whitesmoke;
+  text-align:center;
+  text-shadow:2px 2px;
+}
+.header{
+  width:100%;
+  height:10%;
+}
+.hello{
+  padding:70px;
+  width:100%;
+  height:50%;
+}
+.wel{
+  size:10px ;
+}
