@@ -22,11 +22,11 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(56 120 161);
+    background-color: rgb(86, 150, 22);
   }
   
   .active {
-    background-color: rgb(112, 85, 231);
+    background-color: rgb(73, 73, 233);
   }
   body{
       background-image:url("covid.jpg");
@@ -48,7 +48,8 @@ ul {
     border: none;
     background:transparent;
     color:white;
-    
+    border-bottom-style:groove;
+    border-color:white;
 
   }
   
@@ -56,11 +57,13 @@ ul {
     background-color: white;
     outline: none;
     color:black;
+    border-style:groove;
+    border-color:chartreuse;
   }
   
   /* Overwrite default styles of hr */
   hr {
-    border: 1px solid white;
+    border: 1px solid chartreuse ;
     margin-bottom: 25px;
     color:white;
   }
@@ -113,3 +116,10 @@ ul {
   body{
     font-family: Arial, sans-serif;
   }
+fieldset legend{
+  color:white;
+}
+fieldset{
+  padding: 10px;
+  margin: 5px 0 22px
+}
