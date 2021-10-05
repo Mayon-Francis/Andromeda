@@ -1,2 +1,2 @@
 # Andromeda
-Code innovation series 2020
+Code innovation series
